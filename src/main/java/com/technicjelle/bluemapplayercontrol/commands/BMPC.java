@@ -88,22 +88,22 @@ public class BMPC implements CommandExecutor, TabCompleter {
 
 	private static void showSelf(BlueMapAPI blueMapAPI, CommandSender sender, UUID senderUUID) {
 		blueMapAPI.getWebApp().setPlayerVisibility(senderUUID, true);
-		sender.sendMessage("You are now " + ChatColor.AQUA + "visible" + ChatColor.RESET + " on the map");
+		//sender.sendMessage("You are now " + ChatColor.AQUA + "visible" + ChatColor.RESET + " on the map");
 	}
 
 	private static void hideSelf(BlueMapAPI blueMapAPI, CommandSender sender, UUID senderUUID) {
 		blueMapAPI.getWebApp().setPlayerVisibility(senderUUID, false);
-		sender.sendMessage("You are now " + ChatColor.GOLD + "invisible" + ChatColor.RESET + " on the map");
+		//sender.sendMessage("You are now " + ChatColor.GOLD + "invisible" + ChatColor.RESET + " on the map");
 	}
 
 	private static void showOther(BlueMapAPI api, @NotNull CommandSender sender, Player targetPlayer) {
 		api.getWebApp().setPlayerVisibility(targetPlayer.getUniqueId(), true);
-		sender.sendMessage(targetPlayer.getDisplayName() + " is now " + ChatColor.AQUA + "visible" + ChatColor.RESET + " on the map");
+		//sender.sendMessage(targetPlayer.getDisplayName() + " is now " + ChatColor.AQUA + "visible" + ChatColor.RESET + " on the map");
 	}
 
 	private static void hideOther(BlueMapAPI api, @NotNull CommandSender sender, Player targetPlayer) {
 		api.getWebApp().setPlayerVisibility(targetPlayer.getUniqueId(), false);
-		sender.sendMessage(targetPlayer.getDisplayName() + " is now " + ChatColor.GOLD + "invisible" + ChatColor.RESET + " on the map");
+		//sender.sendMessage(targetPlayer.getDisplayName() + " is now " + ChatColor.GOLD + "invisible" + ChatColor.RESET + " on the map");
 	}
 
 	@Override
