@@ -1,7 +1,7 @@
-package com.technicjelle.bluemapplayercontrol;
+package me.perch.maphider;
 
 import com.technicjelle.UpdateChecker;
-import com.technicjelle.bluemapplayercontrol.commands.BMPC;
+import me.perch.maphider.commands.BMPC;
 import de.bluecolored.bluemap.api.BlueMapAPI;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;

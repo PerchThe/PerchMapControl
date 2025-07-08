@@ -1,11 +1,11 @@
-name: BlueMapPlayerControl
+name: PerchMapHider
 version: '${project.version}'
-main: com.technicjelle.bluemapplayercontrol.BlueMapPlayerControl
+main: me.perch.maphider.BlueMapPlayerControl
 folia-supported: true
 api-version: 1.13
 depend:
   - BlueMap
-author: TechnicJelle
+author: KayaLambrex
 description: Adds player hiding functionality to BlueMap
 website: https://github.com/TechnicJelle/BlueMapPlayerControl
 

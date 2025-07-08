@@ -1,4 +1,4 @@
-package com.technicjelle.bluemapplayercontrol.commands;
+package me.perch.maphider.commands;
 
 import de.bluecolored.bluemap.api.BlueMapAPI;
 import org.bukkit.Bukkit;
